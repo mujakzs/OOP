@@ -107,6 +107,10 @@ class Program
                 paymentService = new GcashPayment();
                 break;
         }
+
+        paymentService.Pay(amount);
+        Console.WriteLine("Payment processed successfully.");
+
     }
 }
 
