@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="abstraction/abstraction.csproj" />
+  <Project Path="Class&amp;Objects/Class&amp;Objects.csproj" Id="f8629cc1-ebe6-44f7-a259-b6fdb048bf4f" />
+  <Project Path="inheritance/inheritance.csproj" />
+  <Project Path="OOP/Encapsulation.csproj" />
+  <Project Path="Polymorphism/Polymorphism.csproj" />
+</Solution>
