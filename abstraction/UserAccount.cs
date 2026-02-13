@@ -161,3 +161,19 @@ public class PaymayaPayment : PaymentServiceBase
         PrintReceipt(amount);
     }
 }
+
+
+/*
+        Why use BOTH interface + abstract class?
+
+        Answer:
+
+            Interface defines the contract.
+            Abstract class shares reusable code.
+
+        Rule:
+
+            Interface → behavior contract
+
+            Abstract → shared implementation
+*/
