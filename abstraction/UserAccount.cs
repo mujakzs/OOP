@@ -1,5 +1,5 @@
 ﻿using System;
-namespace AbstractionDemo;
+namespace Abstraction;
 
 /* Abstraction - Hides Complexity , Shows Essential Features
 
