@@ -7,6 +7,13 @@ class Program
         Console.Write("Please input message: ");
         string message = Console.ReadLine();
 
+        if (string.IsNullOrWhiteSpace(message))
+        {
+            Console.WriteLine("Message cannot be empty.");
+            return;
+        }
+
+
         Console.WriteLine("\nChoose notification method:");
         Console.WriteLine("1 - Email");
         Console.WriteLine("2 - SMS");
